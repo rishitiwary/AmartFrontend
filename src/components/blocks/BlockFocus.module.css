@@ -1,0 +1,45 @@
+.cardContainer{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 2fr 2fr;
+}
+.cards{
+    flex: 0 0 200px; margin: 10px;
+    /* border: 1px solid #ccc; */
+    /* box-shadow: 3px 3px 6px rgba(0,0,0,0.3); */
+    text-align: center;
+}
+.cardImg{
+    max-width: 100%;
+}
+.cardtexts{
+    padding: 5px; margin-bottom:10px;
+}
+.cardbutton{
+    border: none; padding: 5px 15px;
+    background: #566270; color: #fff;
+    font-weight: 600;
+    transition: all 0.3s ease-in;
+}
+
+.FocusMainContainer{
+    background:#f7f7fa;
+    padding:18px;
+    margin:5px
+}
+
+@media only screen and (max-width: 600px) {
+    .FocusMainContainer {
+        padding:0px;
+        margin:0px
+    }
+  }
+.cardHeaderFocus{
+    inset: 0px;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    height: 30px;
+
+}
